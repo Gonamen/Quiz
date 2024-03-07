@@ -1,0 +1,77 @@
+.App {
+  margin-top: 150px;
+}
+.container-Game {
+  display: flex;
+  flex-direction: column;
+  outline: 5px solid rgba(5, 5, 255, 0.956);
+  justify-content: center;
+
+  background-color: rgba(5, 5, 255, 0.956);
+  padding: auto;
+  margin: auto;
+  border-radius: 15px;
+  color: azure;
+}
+.container-Theme {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  outline: 1px solid #f3cf04;
+  text-align: start;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.Theme {
+  width: 600px;
+  color: #ffdd00;
+  font-size: 40px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 150px;
+  text-align: start;
+  padding-top: 50px;
+}
+
+.container-questionitem {
+  outline: 2px solid #f3cf04;
+  text-align: center;
+  line-height: center;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  background: linear-gradient(blue, pink);
+  font-size: 32px;
+  color: aliceblue;
+}
+.modelka {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  width: 1500px;
+  height: 1000px;
+  z-index: 200;
+  color: rgb(253, 253, 253);
+  font-size: 34px;
+  background-color: rgba(6, 6, 6, 0.924);
+  border-radius: 15px;
+}
+.modelka-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: max-content;
+}
+
+.modelka-form p {
+  white-space: pre-wrap;
+  text-align: center;
+}
